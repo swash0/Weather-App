@@ -1,0 +1,46 @@
+/* Set the background color to blue */
+body {
+    background-color: #2c3e50;
+  }
+  
+  /* Center the weather card */
+  .weather-card {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  
+  /* Style the location and weather sections */
+  .location, .weather {
+    text-align: center;
+  }
+  
+  /* Style the city and country */
+  .city {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .country {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Style the weather icon */
+  .icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Style the weather description, temperature and feels-like */
+  .description, .temp, .feels-like {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
